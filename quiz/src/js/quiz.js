@@ -317,17 +317,6 @@ var Quiz = function () {
         
             userChoices.forEach(addPoints)
             
-            console.log(finalPoints);
-
-        shuffledMatchList(finalPoints);
-        /*
-        plantsAnswers.forEach((a,i)=>{
-            if (!a[3].includes(userChoices[3])){
-                finalPoints[i] =-1;
-            }
-            console.log(finalPoints)
-        });
-        */
         return shuffledMatchList(finalPoints);
     }
     
